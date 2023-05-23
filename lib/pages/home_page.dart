@@ -8,14 +8,12 @@ class HomePage extends StatelessWidget {
     int days = 30;
     return Scaffold(
       appBar: AppBar(
-        title: Text("Catalog App"),
+        title: const Text("Catalog App"),
       ),
       body: Center(
-        child: Container(
-          child: Text("Welcome to $days days of Codepur"),
-        ),
+        child: Text("Welcome to $days days of Codepur"),
       ),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
